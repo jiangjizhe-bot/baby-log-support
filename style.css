@@ -1,0 +1,4 @@
+:root{--bg:#F2F4F9;--fg:#1B2232;--muted:#5D687E;--accent:#2B6CB0}
+@media (prefers-color-scheme:dark){:root{--bg:#0D111C;--fg:#E6E9F2;--muted:#98A1B6;--accent:#82B2E8}}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,"PingFang SC",system-ui,sans-serif;margin:0;padding:24px 16px 48px}
+main{max-width:640px;margin:0 auto}h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.8em}a{color:var(--accent)}.muted{color:var(--muted)}
